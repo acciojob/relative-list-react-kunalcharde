@@ -1,7 +1,7 @@
 import React ,{useState} from 'react'
 
 const App = () => {
-  // const relatives=["Mama", "kaka","Atya","Mavshi","Tai"]
+  // const relatives=["Mama", "chachu","bro","sis","uncle"]
   const [relatives, setRelatives]=useState("Mama", "chachu","bro","sis","uncle")
   return (
     <div id="main">
