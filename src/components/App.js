@@ -13,7 +13,7 @@ const App = () => {
     <div id="main">
       <ol key={"relativeList"}>
         {relatives.map((relative, idx) => {
-          return <li key={`relativeListItem${idx}`}>Name: {relative}</li>;
+          return <li key={`relativeListItem${idx+1}`}>Name: {relative}</li>;
         })}
       </ol>
     </div>
